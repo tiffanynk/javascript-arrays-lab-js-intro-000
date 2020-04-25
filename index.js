@@ -28,3 +28,7 @@ function appendKitten(name) {
 /*
 concat() is used to merge two or more arrays. It does not modify the original and returns a new array instead
 */
+
+function prependKitten(name) {
+  return [name, ...kittens]
+}
