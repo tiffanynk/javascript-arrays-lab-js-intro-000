@@ -32,3 +32,8 @@ concat() is used to merge two or more arrays. It does not modify the original an
 function prependKitten(name) {
   return [name, ...kittens]
 }
+
+function removeLastKitten() {
+  return kittens.slice(0, array.length - 1);
+  
+}
