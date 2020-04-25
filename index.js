@@ -22,6 +22,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  let cats = kittens.concat(name).reverse()
+  let cats = kittens.concat(name)
   return cats
 }
