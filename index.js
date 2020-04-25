@@ -25,4 +25,6 @@ function appendKitten(name) {
   let cats = kittens.concat(name)
   return cats
 }
-/* concat() is used to merge two or more arrays. It does not modify the original and returns a new array instead
+/*
+concat() is used to merge two or more arrays. It does not modify the original and returns a new array instead
+*/
